@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 const Hero = () => {
   return (
     <div className="min-h-screen lg:-mt-6">
@@ -19,7 +20,7 @@ const Hero = () => {
           
           {/* Right Image */}
           <div className="md:w-1/2 mt-10 md:-mt-10 ">
-            <img 
+            <Image 
               src="/hero.png" 
               alt="Man using laptop"
               height={550}
